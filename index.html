@@ -3,38 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <title>SINEL</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="script.js">
 </head>
 <body>
 <div class="container">
     <header class="header">
         <img src="images/logo-complet-sinel.png" height="355" width="1000" alt="logo" id="logo"/>
-        <span>Bonjour</span><span id="nom"> F. GUMP</span>
+        <div id="bonjour"><span>Bonjour</span><span id="nom"> F. GUMP</span></div>
         <span id="fonction">Formateur</span>
+        <div class="bouton">
         <button type="submit">Nous contacter</button>
-        <button type="submit">Se déconnecter</button>
+        <button type="submit">Se déconnecter</button></div>
     </header>
 <div class="centre">
     <aside class="aside">
-        <h1>Calendrier du mois</h1>
+        <div id="cal">
+        <h2>Calendrier du mois</h2>
         <div class="calendar"><script src="script.js" type="text/javascript">
         </script></div>
+        </div>
+        <div class="dropdown">
+            <button class="boutonmenuprincipal">Classes</button>
+            <div class="dropdown-child">
+                <button>BTS SNIR1</button>
+                <button>BTS SNIR2</button>
+                <button>SNT</button>
+                <button>SI</button>
+                <button>BTS SNEC1</button>
+            </div>
+        </div>
+        <div id="actu">
+            <h1 class="h1">ACTUALITES</h1>
+            <span>feh iuiuhfezz uuhohf uhufeh feah femahmhf eazuh mufeuzhmufezh amuhfez iu h iuefa</span>
+
+
+        </div>
     </aside>
 
 
     <main class="main">
 
         <section class="section">
-            <article><figure class="jours">Lundi</figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure></article>
-            <article><figure class="jours">Mardi</figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure></article>
-            <article><figure class="jours">Mercredi</figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure></article>
-            <article><figure class="jours">Jeudi</figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure></article>
-            <article><figure class="jours">Vendredi</figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure><figure class="heures"></figure></article>
+            <table id="tab">
+
+                <thead class="row" style="border: 0">
+                <tr><th></th><th>LUNDI</th><th>MARDI</th><th>MERCREDI</th><th>JEUDI</th><th>VENDREDI</th></tr>
+                </thead>
+                <tbody>
+                <tr><td class="t2">8 - 9</td><td class="az"></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td class="t2">9 - 10</td><td class="az"></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td class="t2">10 - 11</td><td class="az"></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td class="t2">11 - 12</td><td class="az"></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td class="t2">12 - 13</td><td class="az"></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td class="t2">13 - 14</td><td class="az"></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td class="t2">14 - 15</td><td class="az"></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td class="t2">15 - 16</td><td class="az"></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td class="t2">16 - 17</td><td class="az"></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td class="t2">17 - 18</td><td class="az"></td><td></td><td></td><td></td><td></td></tr>
+
+                </tbody>
+
+            </table>
+
+
+
+
+
          </section>
     </main>
+
     </div>
-    <footer class="footer">1
+
+    <footer class="footer">
+        <span>© Copyright Antoine et Mathieu.</span>
 
     </footer>
 </div>

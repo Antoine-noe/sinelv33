@@ -11,15 +11,15 @@ function calendrier(mois,an) {
     jour = new Array ("Lu","Ma","Me","Je","Ve","Sa","Di");
 
     var police_entete = "Verdana,Arial"; /* police entête de calendrier  */
-    var taille_pol_entete = 3;           /* taille de police 1-7 entête de calendrier  */
-    var couleur_pol_entete = "#FFFF00";     /* couleur de police entête de calendrier  */
+    var taille_pol_entete = 5;           /* taille de police 1-7 entête de calendrier  */
+    var couleur_pol_entete = "#FFFFFF";     /* couleur de police entête de calendrier  */
     var arrplan_entete = "#000066";        /* couleur d'arrière plan entête de calendrier  */
     var police_jours = "Verdana,Arial"; /* police affichage des jours  */
-    var taille_pol_jours = 3;           /* taille de police 1-7 affichage des jours  */
+    var taille_pol_jours = 5;           /* taille de police 1-7 affichage des jours  */
     var coul_pol_jours = "#000000";     /* couleur de police affichage des jours  */
-    var arrplan_jours = "#D0F0F0";        /* couleur d'arrière plan affichage des jours  */
+    var arrplan_jours = "#89d5cb";        /* couleur d'arrière plan affichage des jours  */
     var couleur_dim = "red";        /* couleur de police pour dimanches  */
-    var couleur_cejour = "#FFFF00";        /* couleur d'arrière plan pour aujourd'hui  */
+    var couleur_cejour = "#fbde7a";        /* couleur d'arrière plan pour aujourd'hui  */
 
     var maintenant = new Date();
     var ce_mois = maintenant.getMonth() + 1;
