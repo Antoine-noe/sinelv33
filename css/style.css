@@ -1,0 +1,160 @@
+h1, h2, h3, h4, h5, h6{
+    margin:0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+ .container{
+    display: flex;
+    flex-flow: column;
+     height: 100vh;
+}
+.container > * {
+    flex: 1 100%;
+}
+.header{
+    flex:1 20%;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 350px;
+    height: auto;
+}
+.aside{
+    flex-direction: column;
+    flex:1 ;
+    background: #0c62af;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main{
+   display: flex;
+    flex:4;
+    background: #04274f;
+    align-items: center;
+}
+.footer{
+    flex: 5%;
+    background: #fbde7a;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer span{
+    margin-right: 2vw;
+}
+.centre{
+    display: flex;
+    flex-direction: row;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    flex:  100%;
+    align-content: center;
+    justify-content: center;
+}
+article{
+    flex:1;
+    background: gray;
+    margin: 10px;
+}
+.jours{
+    text-align: center;
+}
+figure{
+    border-bottom: black solid 1px;
+}
+.bouton{
+    margin-right: 3.5vw;
+    margin-top: 8vh;
+}
+#bonjour{
+    margin-top: 8vh;
+    margin-left: 18vw;
+}
+#fonction{
+    margin-right: 5vw;
+    margin-top: 8vh;
+    font-style: italic;
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-size: large;
+}
+td:not(.t2){
+    border: solid 1px white;
+}
+td:hover:not(.t2) {
+    background-color: gold;
+    transform: scale(1.2);
+}
+th{
+     font-size: xx-large;
+ }
+th:hover{
+    color: crimson;
+
+}
+
+#tab{
+    border-collapse: collapse;
+    width: 70vw;
+    height: 70vh;
+    table-layout: fixed;
+    text-align: center;
+    color: white;
+    align-content: center;
+    margin-right: 9vh;
+}
+.boutonmenuprincipal{
+    width: 290px;
+    cursor: pointer;
+    padding:20px;
+}
+.boutonmenuprincipal:hover, .dropdown-child button:hover {
+    background-color: #89d5cb;
+}
+.dropdown {
+
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #f28c8c;
+    min-width: 290px;
+    position: absolute;
+}
+.dropdown-child button {
+
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    width: 290px;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+#actu:not(.h1){
+    width: 290px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header span{
+    font-weight: bold;
+    font-size: xx-large;
+}
+aside h2{
+    font-size: xx-large;
+    color: white;
+}
